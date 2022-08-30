@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="https://fonts.googleapis.com/css?family=Lato:100,300,400,70,900" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  
+    <title>hosptal</title> 
+</head>
+<body>
+
+
+<header class="head">
+    <div class="mobile-nav d-flex justify-content-between align-item-center d-md-none">
+        <img class="head__hospitalIcon" src="image/Vector Smart Object.png" alt="">
+
+        <button class="navbar-toggler d-md-none  navbar-toggler--styling" 
+        type="button" 
+        data-bs-toggle="collapse"
+         data-bs-target="#navbars"
+         >
+            <label class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+        </button>
+
+       <div class="searchbox">
+           <input type="text" class="searchbox__input" placeholder="Search..." />
+             <svg class="searchbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.966 56.966">
+               <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17s-17-7.626-17-17S14.61,6,23.984,6z" />
+            </svg>
+       </div>
+   </div>
+
+   <!--Navbars-->
+    <div class="navbars  d-md-block" id="navbars">
+      <!----Navbar-White---->
+        <nav class="navbar-white order-1 order-md-0 " id="navbar-white">
+
+          <div class="navbar-white__item  col-xxl-2 d-flex justify-content-end">
+            <a class="navbar-white__link" href="#">CAREES</a>
+            <a class="navbar-white__link" href="#">CONTACT</a>
+            <a class="navbar-white__link" href="#">DONATE</a>
+          </div>
+         <div class="navbar-white__item justify-content-center ">
+            <a class="navbar-white__link" href="#">FOR MEDICAL PROFFESIONALS</a>
+            <a class="navbar-white__link navbar-white__link--research" href="#">RESEARCH</a>
+            <a class="navbar-white__link navbar-white__link--btn" href="#">My Chart</a></li>
+          </div>
+                 <div class="navbar-white__item d-none d-md-flex justify-content-center col-1 col-lg-2">
+              <div class=" navbar-white--searchBox  ">
+                  <input class="navbar-white--searchText" type="text" placeholder="Search">
+                  <a href="#"><img class="navbar-white--searchIcon" src="image/Search Icon.png" alt=""></a>
+              </div>
+          </div>
+                 <div class="navbar-white__item  d-none d-md-flex col-1 ">
+              <div class=" navbar-white--language">
+                  <img src="image/American Flag.png" alt="">
+                  <a href="#" class="navbar-white__link">English</h>
+              </div>
+          </div>
+             <!--- a href ghost-->
+        </nav>
+
+        <!------Navbar-Blue-->
+
+        <nav class="navbar-blue order-0 order-md-1  row  m-0" id="navbar-blue">
+            <div class="navbar-blue__hospitalBox d-none d-md-flex col-12 col-md-2">
+                <a href="#"><img class="navbar-blue__hospitalIcon img-fluid" src="image/Vector Smart Object.png" alt=""></a>
+            </div>
+             <div class="navbar-blue__btn  navbar-blue__btn--patinet-care col-12 col-sm-6 col-md-2 "> <a class="navbar-blue__link" href="#">PATIENT <br>CARE</a></div>
+            <div class="navbar-blue__btn  navbar-blue__btn--programs-services col-sm-6 col-12 col-md-2"><a class="navbar-blue__link" href="#">PROGRAMS <br>& SERVICES</a></div>
+            <div class="navbar-blue__btn  navbar-blue__btn--visitingus col-12 col-sm-6 col-md-2  d-none  d-sm-flex" ><a class="navbar-blue__link" href="#">VISITING<br> US</a></div>
+            <div class="navbar-blue__btn  navbar-blue__btn--about-us col-12 col-sm-6 col-md-2"><a class="navbar-blue__link" href="#">ABOUT <br>US</a></div>   
+        </nav>
+    </div>
+
+</header>
+
+
+
+<section class="section1">
+       <!--Slide-->
+     <div class="slide">
+          
+       <input type="radio" checked="checked" name="radio-btn" id="radio1">
+       <input type="radio" checked="checked" name="radio-btn" id="radio2">
+       <input type="radio" checked="checked" name="radio-btn" id="radio3">
+ 
+       <div class="slide__item slide__item--first">
+         <img src="image/Layer 103.png" alt="First image" class="slide__img  slide__img--desktop img d-none d-md-flex">
+         <img src="image/slide-second-img.png" alt="First image" class="slide__img slide__img--mobile d-flex d-md-none">
+       </div>
+ 
+       <div class="slide__item slide__item--second">
+            <img src="image/Layer 88.png" alt="Second  image" class="slide__img ">
+       </div>
+       
+       <div class="slide__item slide__item--third">
+              <img src="image/Layer 89.png" alt="Third image" class="slide__img">
+       </div>
+    </div>
+    <div class="slide-text">
+       <p class="slide-text__hr"></p>
+       <p class="slide-text__stronger">STRONGER</p>
+       <p class="slide-text__together">  TOGETHER</p>
+       <p class="slide-text__paragraph"> WHEN WE LOOK OUT FOR ONE ANOTHER,<br> WE ALL GET BETTER</p>
+       <p class="slide-text__hr"></p>
+    </div>
+     <div class="slide-manual">
+        <label for="radio1" class="slide-manual--btn"></label>
+        <label for="radio2" class="slide-manual--btn"></label>
+        <label for="radio3" class="slide-manual--btn"></label>
+    </div>
+ </section>
+
+<!--==================Three DROP UP-S==========================--> 
+<section class="section2">
+<!----------Dropup--------->
+    <div class="dropups ">
+        <!--Dropup-Grey-->
+        <div class="dropup dropup-grey   ">
+           <button class="dropup__btn dropup__btn--grey ">
+               <img src="image/Help.png" class=" d-none d-md-flex">
+               <img src="image/haert.png" alt="" class="d-flex d-md-none">
+               <p>How can we help you?</p>
+           </button>
+           <div class="dropup__content dropup__content--grey ">
+                  <a class="dropup-grey__link" href="#">Billing and Financial Services</a>
+                  <a class="dropup-grey__link" href="#">Campus Map </a>
+                  <a class="dropup-grey__link" href="#">Find a Physical</a>
+                  <a class="dropup-grey__link" href="#">Interpreter Services</a>
+                  <a class="dropup-grey__link" href="#">Medical Conditions</a>
+                  <a class="dropup-grey__link" href="#">Medical Rocords</a>
+                  <a class="dropup-grey__link" href="#">Progres & Services</a>
+                  <a class="dropup-grey__link" href="#">Refer a Patient</a>
+                  <a class="dropup-grey__link" href="#">Research</a>
+                  <a class="dropup-grey__link" href="#">Visiting BMC</a>
+           </div>
+       </div>
+      
+        <!--Dropup-Orange-->
+       <div class="dropup dropup-orange ">
+           <button class="dropup__btn dropup__btn--orange w-100">
+               <img src="image/doctor.png" class=" d-none d-md-flex"> 
+               <img src="image/doctor2.png"class=" d-flex d-md-none"> 
+               <p>Find a doctor</p>
+           </button>
+           <div class="dropup__content dropup__content--orange w-100">  
+                   <input type="text" class="dropup-orange__item" placeholder="First Name">
+                   <input type="text" class="dropup-orange__item" placeholder="Last Name">
+                   <div class=" dropup-orange__item ">
+                       <input class="dropup-orange__item--text-arrowdown" type="text" placeholder="Search">
+                       <a href="#"><img class="dropup-orange__arrowdown__icon" src="image/arrow-down.png" alt=""></a>
+                   </div>
+                   <div class="dropup-orange__item ">
+                       <input class="dropup-orange__item--text-arrowdown" type="text"  placeholder="Language">
+                       <a href="#"><img class="dropup-orange__arrowdown__icon"src="image/arrow-down.png" alt=""></a>
+                   </div>
+                   <label class="dropup-orange__gender" for="Gender">
+                       Gender:
+                       <div >
+                          <input class="dropup-orange__checkbox" type="checkbox">
+                          <label for="">Male</label>
+                       </div>
+                       <div >
+                          <input class="dropup-orange__checkbox" type="checkbox">
+                          <label for="">Female</label>
+                      </div>
+                   </label>
+                   <button class="dropup-orange__submit">Submit</button>
+             </div>
+        </div>
+      
+        <!--Dropup-Green-->
+        <div class="dropup  dropup-green ">
+           <button class="dropup__btn dropup__btn--green">
+               <img src="image/appointment.png" class="d-none d-md-flex">
+               <img src="image/location.png"class="d-flex d-md-none">
+               <p>Make a appointment</p>
+           </button>
+           <div class="dropup__content dropup__content--green">   
+                 <a class="dropup-green__link" href="#">Building Information</a>
+                 <a class="dropup-green__link" href="#">Campus Map</a>
+                 <a class="dropup-green__link" href="#">Directions</a>
+                 <a class="dropup-green__link" href="#">Medical Conditions</a>
+                 <a class="dropup-green__link" href="#">Programs & Services</a>
+                 <a class="dropup-green__link" href="#">Transporation</a>
+                 <a class="dropup-green__link" href="#">Visiting a Patient</a>
+           </div>
+       </div>
+    </div>
+</section>
+<!----------------------------------BMC__NEWS------------------------------->
+<section class="section3 ">
+        
+        <div class="bmc-news d-flex flex-column justify-content-center align-items-center">
+        <p class="bmc__title  ">BMC STORIES</p>
+        <div class="bmc-head ">
+            <div class="bmc-head__item  ">
+                <img src="image/adkins.png" alt="" class="img-fluid bmc-img">
+                <h1 class="bmc-head__item__title">The AdKINS FAMILY</h1>
+                <hr class="bmc-head--hr">
+                <p class="bmc-head__item__text">Lorem ipsum dolor sit amet, consectetur </p><p>adipiscing elit, sed do eiusmod.</p>
+            </div>
+            <div class="bmc-head__item">
+                <img src="image/lee.png" alt=""  class="img-fluid bmc-img">
+                <h1 class="bmc-head__item__title">The LEE FAMILY</h1>
+                <hr class="bmc-head--hr">
+                <p class="bmc-head__item__text">Lorem ipsum dolor sit amet, consectetur </p> <p>adipiscing elit, sed do eiusmod.</p>
+            </div>
+        </div>
+        <div class="bmc-info">
+            <div class="bmc-info__content d-flex justify-content-center flex-column flex-md-row">
+                <img src="image/bmc-img.png " class="bmc-content__img img-fluid  " alt="">
+                <div class="bmc-content__text">
+                    <h1>BMC Named Among <br> “150 Great Places to Work <br>in Healthcare”</h1>
+                    <p>The national list includes medical groups, ambulatory surgery centers, home health providers and hospitals and health systems, along with consulting firms, technology providers, professional organizations, and more.</p>
+                    <p>Each year, Becker’s Healthcare develops this list based on a combination of nominations and research. According to Becker’s Healthcare, the organizations on the list are chosen for “their benefits offerings, wellness programs, commitment to diversity and inclusion, professional development opportunities, and environments that promote employee satisfaction and work-life balance.”</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="news__title ">NEWS</p>
+        <div class="news row ">
+            <div class="news__items col-md-6 col-lg-3">
+                <img src="image/study.png" class="img-fluid news__items__img" alt="">
+                <p class="news__items__text">Study: A Simple, Cheap Way To Help Low-Income Kids With ADHD</p>
+            </div>
+            <div class="news__items col-md-6 col-lg-3">
+                <img src="image/benefits.png"class="img-fluid news__items__img" alt="">
+                <p class="news__items__text">The Benefits of Pumping Iron in Later Life</p>
+            </div>
+            <div class="news__items col-md-6 col-lg-3">
+                <img src="image/boston-babies.png"class="img-fluid news__items__img" alt="">
+                <p class="news__items__text">Boston babies buzzing on coffee</p>
+            </div>
+            <div class="news__items col-md-6 col-lg-3">
+                <img src="image/cook.png" class="img-fluid news__items__img"alt="">
+                <p class="news__items__text">Patients Are Learning to Cook Healthier at the BMC Demonstration Kitchen</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------------FOOTER---------------->
+    <section class="section-footer">
+        <div class="footers">
+             <div class="footer big-footer row ">
+                 <div class="big-footer__content col-md-5 col-lg-2">
+                     <img class="big-footer__img " src="image/footer-log.png" alt="">
+                     <p class="big-footer__item--subtitle">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed <br>do eiusmod tempor incididunt<br> ut labore et dolore magna aliqua</p>
+                     <h5 class="big-footer__item--subtitle">One Medical Center Place<br>Boston, MA 02118 <br> 617.638.800</h5>
+                     <div class="big-footer__social-media"> 
+                       <div class="social-media__items"><img src="image/facebook.png" alt=""></div>
+                       <div class="social-media__items"><img src="image/twitter.png" alt=""></div> 
+                       <div class="social-media__items"><img src="image/linkedin.png" alt=""></div>
+                       <div class="social-media__items"><img src="image/youtube.png" alt=""></div>
+                     </div>
+                 </div>
+                 <div class="big-footer__content col-md-5 col-lg-2">
+                     <div class="big-footer__item">
+                         <h3 class="big-footer__item--title">Patient Care</h3>
+                          <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                          <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                          <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                          <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                     </div>
+                    <div class="big-footer__item">
+                        <h3 class="big-footer__item--title">Programs & Services</h3>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                    </div>
+                    <div class="big-footer__item">
+                        <h3 class="big-footer__item--title">About Us</h3>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                    </div>
+                     
+                 </div>
+                 <div class="big-footer__content col-md-5 col-lg-2">
+                     <div class="big-footer__item">
+                         <h3 class="big-footer__item--title">How can we help you?</h3>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                         <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                    </div>
+                   <div class="big-footer__item">
+                     <h3 class="big-footer__item--title">Find a doctor</h3>
+                        <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                        <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                        <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                        <p class="big-footer__item--subtitle">Lorem ipsum</p>
+                   </div>
+                   <div class="big-footer__item">
+                     <h3 class="big-footer__item--title">Visiting BMC</h3>
+                        <p class="big-footer__item--subtitle">Car</p>
+                        <p class="big-footer__item--subtitle">Bus</p>
+                        <p class="big-footer__item--subtitle">Shuttle Buses</p>
+                        <p class="big-footer__item--subtitle">Subway / Commuter Rail</p>
+                        <p class="big-footer__item--subtitle">Bicycle</p>
+                        <p class="big-footer__item--subtitle">Parking</p>
+                        <p class="big-footer__item--subtitle">Other Resources</p>
+                   </div> 
+                     
+                 </div>   
+                 <div class="big-footer__content big-footer__content--last col-md-5 col-lg-2">
+                     <h3 class="big-footer__item--title">Latest News</h3>
+                     <h3 class="big-footer__item--title">Careers</h3>
+                     <h3 class="big-footer__item--title">Contact</h3>
+                     <h3 class="big-footer__item--title">Donate</h3>
+                     <h3 class="big-footer__item--title">Volunteer</h3>
+                     <h3 class="big-footer__item--title">For Medical Professionals</h3>
+                     <h3 class="big-footer__item--title">My Chart</h3>
+                     <h3 class="big-footer__item--title">Home</h3>
+                 </div>
+                
+             </div>
+             
+             <div class="footer small-footer d-flex justify-content-center ">
+                 <a class="small-footer__link" href="#">Website Terms of Use  </a>
+                 <a class="small-footer__link" href="#">BMC Pricacy Policy  </a>
+                 <a class="small-footer__link" href="#">Patient Privacy / HIPAA  </a>
+                 <a class="small-footer__link" href="#">Sitemap </a>
+                 <a class="small-footer__link" href="#">Website Feedback</a>
+                 <a class="small-footer__link" href="#">©2016 Boston Medical Center</a>
+             </div>
+             
+       </div>
+       <div class="white-footer w-100"></div>
+    </section>
+       
+</section>
+
+
+    
+   
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
